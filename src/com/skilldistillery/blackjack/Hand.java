@@ -5,7 +5,7 @@ import java.util.List;
 
 public abstract class Hand {
 	protected List<Card> cards = new ArrayList<>();
-
+ 
 	public Hand() {
 
 	}
@@ -14,7 +14,7 @@ public abstract class Hand {
 		cards.add(card);
 	}
 
-	public void clear() {
+	public void clear() { 
 		// clear deck so this is a stretch goal 
 	}
 

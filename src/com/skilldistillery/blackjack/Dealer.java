@@ -31,7 +31,7 @@ public class Dealer {
 	public boolean bustOccurred() {
 		int handValue = getDealerHandValue();
 		return ((BlackjackHand) dealerHand).isBust(handValue);
-	}
+	} 
 
 	public int getDealerHandValue() {
 		return dealerHand.getHandValue();
@@ -46,7 +46,7 @@ public class Dealer {
 	}
 
 	public Deck getDeck() {
-		return deck;
+		return deck; 
 	}
 
 	public void setDeck(Deck deck) {

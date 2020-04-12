@@ -16,7 +16,7 @@ public class BlackjackHand extends Hand {
 		}
 		return handValue;
 	}
-
+ 
 	public boolean isBlackJack(int handValue) {
 		boolean blackJackMet = true;
 		boolean blackJackNotMet = false;
@@ -27,7 +27,7 @@ public class BlackjackHand extends Hand {
 		return blackJackNotMet;
 	}
 }
-
+ 
 
 	public boolean isBust(int handValue) {
 		boolean bustGame = true;
