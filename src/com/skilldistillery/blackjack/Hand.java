@@ -14,9 +14,9 @@ public abstract class Hand {
 		cards.add(card);
 	}
 
-	public void clear() { 
-		// clear deck so this is a stretch goal 
-	}
+// 	public void clear() { 
+// 		// clear deck so this is a stretch goal 
+// 	}
 
 	public abstract int getHandValue();
  
