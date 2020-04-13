@@ -52,7 +52,7 @@ public class BlackjackDealingApp {
 			if (p.getPlayerHandValue() > 21) {
 				boolean playerBust = p.bustOccurred();
 				if (playerBust == true) {
-					System.out.println("You lose!");
+					System.out.println("Your hand is at " + p.getPlayerHandValue() + " points. You lose!");
 					System.exit(0);
 				}
 			} else if (p.getPlayerHandValue() < 21) {
