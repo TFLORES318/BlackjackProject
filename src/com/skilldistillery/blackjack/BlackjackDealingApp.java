@@ -59,8 +59,7 @@ public class BlackjackDealingApp {
 				System.out.println("Your hand is now worth " + p.getPlayerHandValue() + " points.");
 				playerMenu();
 
-			}
-			else if (p.getPlayerHandValue() == 21) {
+			} else if (p.getPlayerHandValue() == 21) {
 				System.out.println("Your hand is now worth 21 points! Perfect.");
 			}
 
@@ -81,16 +80,12 @@ public class BlackjackDealingApp {
 			if (dealerBust == true) {
 				System.out.println("Dealer loses! You win!");
 			}
-		} else if (d.getDealerHandValue() == 17) {
-			if (d.getDealerHandValue() == p.getPlayerHandValue()) {
-				System.out.println("It's a tie - no one wins.");
-			}
 		} else if (d.getDealerHandValue() > p.getPlayerHandValue()) {
 			System.out.println("Dealer wins!");
 		} else if (d.getDealerHandValue() < p.getPlayerHandValue()) {
 			System.out.println("You win!");
 		} else if (d.getDealerHandValue() == p.getPlayerHandValue()) {
-			System.out.println("Tie again! No one wins.");// need to review this
+			System.out.println("It's a tie! No one wins.");
 		}
 	}
 
