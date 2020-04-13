@@ -97,7 +97,7 @@ public class BlackjackDealingApp {
 		}
 		boolean blackjackDealer = d.blackjackMet(card1, card2);
 		if (blackjackDealer == true) {
-			System.out.println("The dealer has " + d.getDealerHand() + " points and has Blackjack. You lose!");
+			System.out.println("The dealer's hand is " +d.getDealerHand() + ". Dealer has met " + d.getDealerHandValue() + " points and has Blackjack. You lose!");
 			System.exit(0);
 		}
 	}
