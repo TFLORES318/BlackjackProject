@@ -20,7 +20,7 @@ The card class uses the enum classes to make card objects.
 
 The deck class creates the deck of 52 cards through an array list and also holds deck capabilities, like shuffling, removing a card from the deck, checking the deck size, etc. 
 
-The abdstract hand class has it's own array list which contains the hand that the player and dealer are dealt. Cards are added to the hand. 
+The abstract hand class has it's own array list which contains the hand that the player and dealer are dealt. Cards are added to the hand. 
 
 In the blackjack hand subclass, a hand's value can be obtained by using a for loop to go through the array list and getting the card's value. This class also determines if a hand has met blackjack and if a hand is bust.
 
